@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="Styles/styles.css">
+</head>
+<body>
+
+    <!-- Encabezado -->
+
+    <div class="container-header">
+        <header>
+            <div class="logo"><a href="">Anderson</a></div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+<!-- Inicio -->
+
+    <seccion id="inicio" class="inicio">
+        <div class="container-banner">
+            <div class="contenedor-img">
+                <img src="assets/Imagenes/158214.jpg" alt="">
+            </div>
+            <h2>Anderson Lozano</h2>
+            <h3>Desarrollador FullStack Junior</h3>
+            <div class="redes">
+                <a href="https://www.facebook.com/anderson.lv.399/"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://www.instagram.com/anderson.lv.399/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/LozanoAndersonTheStain"><i class="fa-brands fa-github-alt"></i></a>
+                <a href="https://discord.com/channels/@me"><i class="fa-brands fa-discord"></i></a>
+                <a href="https://mail.google.com/mail/u/0/?hl=es#inbox"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </seccion>
+
+<!-- Sobre mi -->
+
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span> Hola, soy Anderson Lozano </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias placeat explicabo tempora architecto vitae in quaerat veniam quisquam porro molestiae rerum eos assumenda facere expedita quasi impedit, hic ea autem?
+            Quos, consequuntur, at perspiciatis corrupti saepe quisquam aperiam aliquam soluta voluptatibus maiores accusantium esse atque natus debitis officia, iusto numquam voluptas ipsum. Facilis magnam impedit, numquam autem quo libero voluptatem.</p>
+
+            <div class="fila">
+                <!-- Datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Fecha de nacimiento:</strong>
+                            07-10-2001
+                        </li>
+                        <li>
+                            <strong>Telefono:</strong>
+                            3015392178
+                        </li>
+                        <li>
+                            <strong>Email:</strong>
+                            adslozanov@gmail.com
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Intereses -->
+                <div class="col"> 
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="me-interesa">
+                            <i class="fa-solid fa-video"></i>
+                            <span>PELICULAS</span>
+                        </div>
+
+                        <div class="me-interesa">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MÚSICA</span>
+                        </div>
+
+                        <div class="me-interesa">
+                            <i class="fa-solid fa-person-running"></i>
+                            <span>PARKOUR</span>
+                        </div>
+
+                        <div class="me-interesa">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+
+                        <div class="me-interesa">
+                            <i class="fa-solid fa-microchip"></i>
+                            <span>HARWARE</span>
+                        </div>
+
+                        <div class="me-interesa">
+                            <i class="fa-brands fa-uncharted"></i>
+                            <span>SOFWARE</span>
+                        </div>
+
+                        <div class="me-interesa">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+<!-- Skills -->
+
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h3>Skills</h3>
+            <div class="fila">
+
+                <!-- Technical en Skill -->
+                <div class="col">
+                    <h3>Technical skills</h3>
+                    <div class="skill">
+                        <span>Git</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Html</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill">
+                        <span>Css</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>42%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Note Js</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>15%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MySql</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Profesional en Skill -->
+                <div class="col">
+                    <h3>Profesional skills</h3>
+
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Comunicación Asertiva</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>96%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Escucha Activa</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>98%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Paciencia</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Sociable</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Curriculum -->
+
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h3>Curriculum</h3>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Tecnico Asistente Administrativo en Bienes y Servicios</h4>
+                        <span class="house">I.E El Corazón</span>
+                        <span class="fecha">2020 - 2021</span>
+                        <p>Realice una tecnica completa de tecnico asistente administrativo en un lapso de tiempo de 2 años consecutivos, en esta area aprendi: Un poco de Legislación laboral, Archivo...</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>Desarrollador Web Junior</h4>
+                        <span class="house">Academia Código C13</span>
+                        <span class="fecha">Abril/27/2022 - Diciembre/00/2022</span>
+                        <p>Estudie Desarrollo de Paginas Web como Desarrollador FullStack junior, esto fue realizado en un periodo de 8 meses trancurridos consecutivamente, con una intensidad horaria de 8 horas viendo Frontend y Backend cada una de 4 horas seguidas...
+                        En esa misma institución aprendi a reforzar las habilidades blandas y tambien he aprendido ingles básico y actualmente me encuentro en un nivel A1.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de Trabajo</h3>
+                    <div class="item der">
+                        <h4>Sin experiencia</h4>
+                        <span class="house">Cargo desempeñado:</span>
+                        <span class="fecha">Nombre de la empresa:</span>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita numquam id, iusto asperiores harum quasi. Modi at sunt quos provident! Cupiditate, consectetur unde? Temporibus, harum impedit ducimus est quam alias?
+                        Architecto, saepe tenetur, repudiandae unde dolores ea velit blanditiis a in sequi rem laborum ipsum excepturi eius aperiam iure explicabo perspiciatis accusamus ullam dolor debitis sint vero quo molestiae. Sapiente?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Sin experiencia</h4>
+                        <span class="house">Cargo desempeñado:</span>
+                        <span class="fecha">Nombre de la empresa:</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates suscipit doloremque, impedit omnis possimus doloribus voluptatem perferendis labore, eos vitae odit deserunt quibusdam delectus hic vel voluptas tempore quam. Itaque.
+                        Cumque aspernatur itaque, cupiditate inventore ipsa id voluptates animi laudantium eum, ipsam quasi dolor tempore tenetur ullam, unde omnis voluptate incidunt nihil! At porro quas modi harum commodi excepturi dolorem!</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>    
+    </section>
+
+<!-- Portafolio -->
+
+    <section id="portafolio" class="portafolio">
+        <div class="constenido-seccion">
+            <h3>PORTAFOLIO</h3>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="assets/Imagenes/Juego BlackJack.png" alt="">
+                    <div class="overlay">
+                        <h2>Juego BlackJack</h2>
+                        <p>screenshot</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="assets/Imagenes/Juego de triki.png" alt="">
+                    <div class="overlay">
+                        <h2>Juego Triki</h2>
+                        <p>screenshot</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="assets/Imagenes/Pagina de tareas.png" alt="">
+                    <div class="overlay">
+                        <h2>Ayudante Organizacional</h2>
+                        <p>screenshot</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Contacto -->
+
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Numeo telefonico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema de interes">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button> 
+                        Enviar Mensaje
+                        <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="assets/Imagenes/Residencia.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-sharp fa-solid fa-map-location-dot"></i>
+                                Colombia: Medellin
+                                Dirección:
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile"></i>
+                                Contactame: 301 - 539 - 2178
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelopes-bulk"></i>
+                                Email: adslozanov@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/anderson.lv.399/"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="https://www.instagram.com/anderson.lv.399/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/LozanoAndersonTheStain"><i class="fa-brands fa-github-alt"></i></a>
+            <a href="https://discord.com/channels/@me"><i class="fa-brands fa-discord"></i></a>
+            <a href="https://mail.google.com/mail/u/0/?hl=es#inbox"><i class="fa-solid fa-envelope"></i></a>
+        </div>   
+    </footer>
+
+    <script src="Js/Scripst.js"></script>
+</body>
+</html>
