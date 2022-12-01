@@ -681,6 +681,10 @@ html {
   margin-bottom: 0px;
 }
 
+.proyecto .overlay a {
+  text-decoration: none
+}
+
 /* Contacto */
 
 .contacto {
